@@ -29,12 +29,10 @@
 订阅示例
 将“配置的域名”替换为您自己的域以获得正确的功能。
 
-：
 
 **例 1:**
 ```https://sub.443888.xyz/sub?uuid=bbbbbbbb-bbbb-4bbb-bbbb-bbbbbbbbbbbb&path=%2FFree-CF-Proxy-KR4&security=tls&encryption=none&host=部署的域名&fp=randomized&type=ws&sni=部署的域名
 ```
-：
 **示例 2:**
 ```
 https://sub.443888.xyz/sub?uuid=5adab1c6-86f3-43e4-baf2-e59121976abd&path=%2FFree-CF-Proxy-192.3.113.4-19318&security=tls&encryption=none&host=部署的域名&fp=randomized&type=ws&sni=部署的域名
