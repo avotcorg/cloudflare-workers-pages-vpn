@@ -31,7 +31,8 @@
 
 
 **例 1:**
-```https://sub.443888.xyz/sub?uuid=bbbbbbbb-bbbb-4bbb-bbbb-bbbbbbbbbbbb&path=%2FFree-CF-Proxy-KR4&security=tls&encryption=none&host=部署的域名&fp=randomized&type=ws&sni=部署的域名
+```
+https://sub.443888.xyz/sub?uuid=bbbbbbbb-bbbb-4bbb-bbbb-bbbbbbbbbbbb&path=%2FFree-CF-Proxy-KR4&security=tls&encryption=none&host=部署的域名&fp=randomized&type=ws&sni=部署的域名
 ```
 **示例 2:**
 ```
