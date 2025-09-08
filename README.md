@@ -1,14 +1,18 @@
 ### 使用cloudflare 大善人 workers 或者 pages 部署后你也可以拥有跟这个网站一样的功能
 傻瓜式 节点已经复活  支持 vless  trojan  ss  同时还支持 /Free-CF-Proxy-45.8.104.83-80  格式反代 及 /Free-CF-Proxy-TW 格式反代    提供手搓实例
+### 实例1 傻瓜式自动反代对应国家 比如 US 、 HK 、 CN 、TW 等等等
 ```
 vless://aaaaaaaa-bbbb-cccc-cccc-dddddddddddd@xxxxxxxx.tk.cdn.cloudflare.net:443?encryption=none&security=tls&sni=域名&fp=randomized&allowInsecure=1&type=ws&host=域名&path=%2FFree-CF-Proxy-TW1#OTC
 ```
+### 实例2 手工维护反代IP+端口
 ```
 vless://aaaaaaaa-bbbb-cccc-cccc-dddddddddddd@xxxxxxxx.tk.cdn.cloudflare.net:443?encryption=none&security=tls&sni=域名&fp=randomized&allowInsecure=1&type=ws&host=域名&path=%2FFree-CF-Proxy-45.8.104.83-80#OTC
 ```
+### 实例3 傻瓜式自动反代对应国家 比如 US 、 HK 、 CN 、TW 等等等
 ```
 trojan://aaaaaaaa-bbbb-cccc-cccc-dddddddddddd@xxxxxxxx.tk.cdn.cloudflare.net:443?security=tls&sni=域名&fp=randomized&allowInsecure=1&type=ws&host=%E5%9F%9F%E5%90%8D&path=%2FFree-CF-Proxy-TW1#OTC
 ```
+### 实例4 手工维护反代IP+端口
 ```
 trojan://aaaaaaaa-bbbb-cccc-cccc-dddddddddddd@xxxxxxxx.tk.cdn.cloudflare.net:443?security=tls&sni=域名&fp=randomized&allowInsecure=1&type=ws&host=%E5%9F%9F%E5%90%8D&path=%2FFree-CF-Proxy-45.8.104.83-80#OTC
 ```
