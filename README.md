@@ -1,10 +1,17 @@
 ### 使用cloudflare 大善人 workers 或者 pages 部署后你也可以拥有跟这个网站一样的功能
 傻瓜式 节点已经复活  支持 vless  trojan  ss  同时还支持 /Free-CF-Proxy-45.8.104.83-80  格式反代 及 /Free-CF-Proxy-TW 格式反代    提供手搓实例
+```
 vless://aaaaaaaa-bbbb-cccc-cccc-dddddddddddd@xxxxxxxx.tk.cdn.cloudflare.net:443?encryption=none&security=tls&sni=域名&fp=randomized&allowInsecure=1&type=ws&host=域名&path=%2FFree-CF-Proxy-TW1#OTC
+```
+```
 vless://aaaaaaaa-bbbb-cccc-cccc-dddddddddddd@xxxxxxxx.tk.cdn.cloudflare.net:443?encryption=none&security=tls&sni=域名&fp=randomized&allowInsecure=1&type=ws&host=域名&path=%2FFree-CF-Proxy-45.8.104.83-80#OTC
-
+```
+```
 trojan://aaaaaaaa-bbbb-cccc-cccc-dddddddddddd@xxxxxxxx.tk.cdn.cloudflare.net:443?security=tls&sni=域名&fp=randomized&allowInsecure=1&type=ws&host=%E5%9F%9F%E5%90%8D&path=%2FFree-CF-Proxy-TW1#OTC
+```
+```
 trojan://aaaaaaaa-bbbb-cccc-cccc-dddddddddddd@xxxxxxxx.tk.cdn.cloudflare.net:443?security=tls&sni=域名&fp=randomized&allowInsecure=1&type=ws&host=%E5%9F%9F%E5%90%8D&path=%2FFree-CF-Proxy-45.8.104.83-80#OTC
+```
 <img width="1265" height="841" alt="880a1cb9-437a-4105-b0ec-349c153e94f5" src="https://github.com/user-attachments/assets/1fc0f5b2-b5be-4f27-8dab-9e3cbf76126e" />
 ### 你的域名或者pages 都能用来访问
 <img width="1300" height="866" alt="7be0b837-2f5b-4b62-bba1-4fa789c25923" src="https://github.com/user-attachments/assets/1bf97f69-7185-4dfc-ad81-5ef212644136" />
